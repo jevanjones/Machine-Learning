@@ -1,0 +1,16 @@
+
+@RELATION test1
+
+@ATTRIBUTE 'xValue' real
+@ATTRIBUTE 'yValue' real
+@ATTRIBUTE 'class' {'true','false'}
+
+@DATA
+  -0.9,-0.9,'true'
+  -0.8,-0.8,'false'
+  -0.5,0.5,'true'
+  -0.7,0.7,'false'
+   0.9,0.9,'true'
+   0.2,0.2,'false'
+   0.5,-0.5,'true'
+   0.4,-0.4,'false'

@@ -1,0 +1,15 @@
+@RELATION dt_Test
+@ATTRIBUTE meat {N,Y}
+@ATTRIBUTE crust {D,S,T}
+@ATTRIBUTE veg {N,Y}
+@ATTRIBUTE class {B,G,Gr}
+@DATA
+Y,T,N,Gr
+N,D,N,B
+N,S,Y,G
+Y,S,Y,Gr
+Y,D,N,G
+Y,D,Y,Gr
+N,T,Y,G
+Y,D,N,G
+N,T,N,B
